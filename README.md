@@ -44,6 +44,6 @@ Sinta-se à vontade para contribuir com mais exemplos ou melhorias neste reposit
 
 ## Autor
 
-Este repositório é mantido por [Seu Nome]. Se você tiver alguma dúvida ou sugestão, entre em contato através do [seu e-mail] ou abra uma issue neste repositório.
+Se você tiver alguma dúvida ou sugestão, entre em contato através do thiagonasmento20@gmail.com ou abra uma issue neste repositório.
 
 Aproveite os exemplos e aprenda mais sobre a criação de processos no Linux!
