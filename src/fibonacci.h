@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
-{
+void fibonacci(){
 	int *fib;
 	int num;
 	int i;
@@ -12,14 +11,12 @@ int main()
 
 	if (num <= 0) {
 		printf("\nQuantidade de termos deve ser um numero positivo e nao-nulo!\n");
-		return 1;
 	}
 
 	fib = (int *) calloc(num, sizeof(int));
 
 	if(!fib){
 		printf("\nSem espaco suficiente na memoria para armazenar os termos da Serie de Fibonacci!\n");
-		return 1;
 	}
 
 	fib[0] = 0;
@@ -36,7 +33,4 @@ int main()
 	printf("\n\n");
 
 	free(fib);
-
-	return 0;
-
 }

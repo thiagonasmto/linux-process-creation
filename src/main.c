@@ -19,7 +19,7 @@ int main(){
 		/* código exclusivo para o processo filho executar */
 		printf("\nInicializando processo filho...");
 		printf("\nMeu identificador (filho) eh o numero %d", getpid());	
-		printf("\nMinha função será gerar e exibir os termos da série de Fibonacci %d");
+		printf("\nMinha função será gerar e exibir os termos da série de Fibonacci");
 		fibonacci();
 		printf("\nEncerrando!\n");
 	}else { /* processo pai */
